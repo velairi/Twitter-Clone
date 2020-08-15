@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8C00361024CA14D50095F4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00360F24CA14D50095F4A8 /* AppDelegate.swift */; };
-		8C00361224CA14D50095F4A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00361124CA14D50095F4A8 /* SceneDelegate.swift */; };
 		8C00361424CA14D50095F4A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00361324CA14D50095F4A8 /* ViewController.swift */; };
 		8C00361724CA14D50095F4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C00361524CA14D50095F4A8 /* Main.storyboard */; };
 		8C00361924CA14D50095F4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C00361824CA14D50095F4A8 /* Assets.xcassets */; };
 		8C00361C24CA14D50095F4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C00361A24CA14D50095F4A8 /* LaunchScreen.storyboard */; };
+		8C00362424CA15540095F4A8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C00362324CA15540095F4A8 /* ViewController.xib */; };
+		8C00362724CA15B50095F4A8 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00362524CA15B50095F4A8 /* FeedTableViewCell.swift */; };
+		8C00362824CA15B50095F4A8 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C00362624CA15B50095F4A8 /* FeedTableViewCell.xib */; };
+		8C00362C24CA1EFC0095F4A8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00362B24CA1EFC0095F4A8 /* Post.swift */; };
+		8C00362F24CA1FFE0095F4A8 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00362D24CA1FFE0095F4A8 /* PostDetailViewController.swift */; };
+		8C00363024CA1FFE0095F4A8 /* PostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C00362E24CA1FFE0095F4A8 /* PostDetailViewController.xib */; };
+		8C00363224CCDDB20095F4A8 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00363124CCDDB20095F4A8 /* Comment.swift */; };
+		8C00363524CCE3B30095F4A8 /* AuthorPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00363324CCE3B30095F4A8 /* AuthorPostsViewController.swift */; };
+		8C00363624CCE3B30095F4A8 /* AuthorPostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C00363424CCE3B30095F4A8 /* AuthorPostsViewController.xib */; };
+		8C00364324CE41900095F4A8 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00364124CE41900095F4A8 /* CommentTableViewCell.swift */; };
+		8C00364424CE41900095F4A8 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C00364224CE41900095F4A8 /* CommentTableViewCell.xib */; };
+		A8708996CBFBFB3AE18D27AC /* Pods_Valerie_Don_Universe_Take_Home_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0728A8174E52F2F73E2CA888 /* Pods_Valerie_Don_Universe_Take_Home_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0728A8174E52F2F73E2CA888 /* Pods_Valerie_Don_Universe_Take_Home_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Valerie_Don_Universe_Take_Home_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567F07D6C71288DF12401A78 /* Pods-Valerie_Don_Universe_Take_Home_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Valerie_Don_Universe_Take_Home_Project.release.xcconfig"; path = "Target Support Files/Pods-Valerie_Don_Universe_Take_Home_Project/Pods-Valerie_Don_Universe_Take_Home_Project.release.xcconfig"; sourceTree = "<group>"; };
 		8C00360C24CA14D50095F4A8 /* Valerie_Don_Universe_Take_Home_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valerie_Don_Universe_Take_Home_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C00360F24CA14D50095F4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C00361124CA14D50095F4A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8C00361324CA14D50095F4A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C00361624CA14D50095F4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C00361824CA14D50095F4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C00361B24CA14D50095F4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C00361D24CA14D50095F4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C00362324CA15540095F4A8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8C00362524CA15B50095F4A8 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		8C00362624CA15B50095F4A8 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		8C00362B24CA1EFC0095F4A8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8C00362D24CA1FFE0095F4A8 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		8C00362E24CA1FFE0095F4A8 /* PostDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailViewController.xib; sourceTree = "<group>"; };
+		8C00363124CCDDB20095F4A8 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		8C00363324CCE3B30095F4A8 /* AuthorPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorPostsViewController.swift; sourceTree = "<group>"; };
+		8C00363424CCE3B30095F4A8 /* AuthorPostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorPostsViewController.xib; sourceTree = "<group>"; };
+		8C00364124CE41900095F4A8 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		8C00364224CE41900095F4A8 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		DEEB673E2DFD2FD8AF30BE00 /* Pods-Valerie_Don_Universe_Take_Home_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Valerie_Don_Universe_Take_Home_Project.debug.xcconfig"; path = "Target Support Files/Pods-Valerie_Don_Universe_Take_Home_Project/Pods-Valerie_Don_Universe_Take_Home_Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8708996CBFBFB3AE18D27AC /* Pods_Valerie_Don_Universe_Take_Home_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				8C00360E24CA14D50095F4A8 /* Valerie_Don_Universe_Take_Home_Project */,
 				8C00360D24CA14D50095F4A8 /* Products */,
+				A01BF00814EBF5EA48ED03FB /* Pods */,
+				AA391C3548929716D1529709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +84,41 @@
 			isa = PBXGroup;
 			children = (
 				8C00360F24CA14D50095F4A8 /* AppDelegate.swift */,
-				8C00361124CA14D50095F4A8 /* SceneDelegate.swift */,
 				8C00361324CA14D50095F4A8 /* ViewController.swift */,
+				8C00362324CA15540095F4A8 /* ViewController.xib */,
+				8C00362D24CA1FFE0095F4A8 /* PostDetailViewController.swift */,
+				8C00362E24CA1FFE0095F4A8 /* PostDetailViewController.xib */,
+				8C00363324CCE3B30095F4A8 /* AuthorPostsViewController.swift */,
+				8C00363424CCE3B30095F4A8 /* AuthorPostsViewController.xib */,
+				8C00362524CA15B50095F4A8 /* FeedTableViewCell.swift */,
+				8C00362624CA15B50095F4A8 /* FeedTableViewCell.xib */,
+				8C00364124CE41900095F4A8 /* CommentTableViewCell.swift */,
+				8C00364224CE41900095F4A8 /* CommentTableViewCell.xib */,
+				8C00362B24CA1EFC0095F4A8 /* Post.swift */,
+				8C00363124CCDDB20095F4A8 /* Comment.swift */,
 				8C00361524CA14D50095F4A8 /* Main.storyboard */,
 				8C00361824CA14D50095F4A8 /* Assets.xcassets */,
 				8C00361A24CA14D50095F4A8 /* LaunchScreen.storyboard */,
 				8C00361D24CA14D50095F4A8 /* Info.plist */,
 			);
 			path = Valerie_Don_Universe_Take_Home_Project;
+			sourceTree = "<group>";
+		};
+		A01BF00814EBF5EA48ED03FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB673E2DFD2FD8AF30BE00 /* Pods-Valerie_Don_Universe_Take_Home_Project.debug.xcconfig */,
+				567F07D6C71288DF12401A78 /* Pods-Valerie_Don_Universe_Take_Home_Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA391C3548929716D1529709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0728A8174E52F2F73E2CA888 /* Pods_Valerie_Don_Universe_Take_Home_Project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C00362024CA14D50095F4A8 /* Build configuration list for PBXNativeTarget "Valerie_Don_Universe_Take_Home_Project" */;
 			buildPhases = (
+				C931617BDF68E4128112B9D7 /* [CP] Check Pods Manifest.lock */,
 				8C00360824CA14D50095F4A8 /* Sources */,
 				8C00360924CA14D50095F4A8 /* Frameworks */,
 				8C00360A24CA14D50095F4A8 /* Resources */,
+				1055D10F0FAF584F0F32B265 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +182,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C00361C24CA14D50095F4A8 /* LaunchScreen.storyboard in Resources */,
+				8C00363024CA1FFE0095F4A8 /* PostDetailViewController.xib in Resources */,
+				8C00362824CA15B50095F4A8 /* FeedTableViewCell.xib in Resources */,
 				8C00361924CA14D50095F4A8 /* Assets.xcassets in Resources */,
+				8C00362424CA15540095F4A8 /* ViewController.xib in Resources */,
 				8C00361724CA14D50095F4A8 /* Main.storyboard in Resources */,
+				8C00364424CE41900095F4A8 /* CommentTableViewCell.xib in Resources */,
+				8C00363624CCE3B30095F4A8 /* AuthorPostsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1055D10F0FAF584F0F32B265 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Valerie_Don_Universe_Take_Home_Project/Pods-Valerie_Don_Universe_Take_Home_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Valerie_Don_Universe_Take_Home_Project/Pods-Valerie_Don_Universe_Take_Home_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Valerie_Don_Universe_Take_Home_Project/Pods-Valerie_Don_Universe_Take_Home_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C931617BDF68E4128112B9D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Valerie_Don_Universe_Take_Home_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C00360824CA14D50095F4A8 /* Sources */ = {
@@ -139,8 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C00361424CA14D50095F4A8 /* ViewController.swift in Sources */,
+				8C00363224CCDDB20095F4A8 /* Comment.swift in Sources */,
+				8C00362F24CA1FFE0095F4A8 /* PostDetailViewController.swift in Sources */,
+				8C00362724CA15B50095F4A8 /* FeedTableViewCell.swift in Sources */,
+				8C00364324CE41900095F4A8 /* CommentTableViewCell.swift in Sources */,
 				8C00361024CA14D50095F4A8 /* AppDelegate.swift in Sources */,
-				8C00361224CA14D50095F4A8 /* SceneDelegate.swift in Sources */,
+				8C00363524CCE3B30095F4A8 /* AuthorPostsViewController.swift in Sources */,
+				8C00362C24CA1EFC0095F4A8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		8C00362124CA14D50095F4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEB673E2DFD2FD8AF30BE00 /* Pods-Valerie_Don_Universe_Take_Home_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		8C00362224CA14D50095F4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567F07D6C71288DF12401A78 /* Pods-Valerie_Don_Universe_Take_Home_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

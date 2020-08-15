@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 AvenirNext-Medium;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww20980\viewh19300\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 \
+\
+Un1verse Take Home Project by Valerie Don\
+\
+Description:
+\fs28 \
+A Twitter clone that has a home newsfeed with tweets, a tweet detail page with comments following the tweet, and a profile page with all of the user\'92s tweets.\
+\
+
+\fs36 Project Requirements:
+\fs28 \
+Given 2-4 hours, create an app that fetches data from the server to display posts, display comments that go with the posts, and display all posts made by a user.\
+\
+
+\fs36 What I've Accomplished So Far:
+\fs28 \
+- Fetched posts data from server\
+- Fetched comments from server\
+- Parse posts data and comments data\
+- Create three view controllers displaying different data\
+- Reused tableview cell FeedTableViewCell for all tableviews\
+- Allowed username and profile image icon to take user to profile page from any view controller\
+- Prettified app with no designs and with time, data, and project information constraints\
+- Tested with real users and received useful feedback that I used to improve UX\
+\
+
+\fs36 Assumptions:\
+
+\fs28 - Assumed that app will be in portrait mode, never in landscape\
+- Assumed that app will only be in light mode. Not configured for dark mode\
+- Assumed that this app is supporting iOS 10 and up\
+- Assumed that this app will not be fetching continuous updates like a real twitter clone would\
+
+\fs36 \
+What's Left to do:
+\fs28 \
+- Create a reusable tableview class so that we don't have to use three different view controllers, we might just need two instead of three\
+- Minor UI improvements like adding a twitter handle (ex. @timcook) underneath username\
+
+\fs36 \
+Technologies Used:\
+
+\fs28 - Alamofire
+\fs36 \
+\
+Special Gotchas:\
+
+\fs28 - Passing data between view controllers to be able to take the user to the Profile page was a tricky one. I wanted my users to be able to click on any account name and profile image to be taken directly to the page with all of the account tweets (AuthorPostsViewController), but one of the view controllers didn\'92t have the data to pass around (PostDetailViewController). I implemented a protocol and adopted the protocol on the view controller with data (ViewController) to send data to AuthorPostsViewController and present it as well, rather than presenting the it from the view controller without data (PostDetailViewController).\
+\
+- PostDetailViewController was a tricky one as well since I wanted to display the original post the user clicked on and show all of the comments. I figured out how to add another tableview cell inside of the tableview and display all of the comments beneath it in using a custom tableview cell.\
+\
+- There was not a lot of data to work with so I improvised and added some usernames to make the app feel more lively! Had some friends play around with the app to see how I could make it better. When they opened up the first prototype of this app they had no idea what it\'92s purpose was, so I added a Twitter icon and usernames to make it feel more intuitive, and look more like Twitter.\
+\
+
+\fs36 Notes:\
+
+\fs28 - This project was super fun to build! Thanks Un1verse team! I had so much fun building it.\
+
+\fs36 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

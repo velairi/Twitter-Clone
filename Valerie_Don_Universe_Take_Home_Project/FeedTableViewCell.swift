@@ -10,15 +10,24 @@ import UIKit
 
 class FeedTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var profileImageButton: UIButton!
+    @IBOutlet weak var usernameButton: UIButton!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var bodyLabel: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
+        profileImageButton.isEnabled = true
+        profileImageButton.backgroundColor = .clear
+        profileImageButton.layer.cornerRadius = 5
+        profileImageButton.layer.borderWidth = 1
+        profileImageButton.layer.borderColor = UIColor.black.cgColor
+        self.separatorInset = UIEdgeInsets.zero
+        usernameButton.contentHorizontalAlignment = .left
+        usernameButton.sizeToFit()
+        usernameButton.titleLabel?.lineBreakMode = .byTruncatingTail
+        usernameButton.titleLabel?.numberOfLines = 0
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-    
 }
